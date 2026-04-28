@@ -7,22 +7,22 @@ A modern, full-featured **Saloon Management Web Application** that lets customer
 ## 🌟 Live Screenshots
 
 ### 🏠 Home Page
-/home/aa8831/Pictures/Screenshots/Screenshot from 2026-04-28 23-46-06.png
+![Home Page](Screenshot%20from%202026-04-28%2023-46-06.png)
 
 ### 💆 Services
-/home/aa8831/Pictures/Screenshots/Screenshot from 2026-04-28 23-47-07.png
+![Services Page](Screenshot%20from%202026-04-28%2023-47-07.png)
 
 ### 🛍️ Products Shop
-/home/aa8831/Pictures/Screenshots/Screenshot from 2026-04-28 23-47-43.png
+![Products Page](Screenshot%20from%202026-04-28%2023-47-43.png)
 
 ### 📅 My Bookings (Cancel & Delete)
-/home/aa8831/Pictures/Screenshots/Screenshot from 2026-04-28 23-48-38.png
+![My Bookings](Screenshot%20from%202026-04-28%2023-48-38.png)
 
 ### 👤 User Profile
-/home/aa8831/Pictures/Screenshots/Screenshot from 2026-04-28 23-49-27.png
+![User Profile](Screenshot%20from%202026-04-28%2023-49-27.png)
 
 ### 🔐 Admin Panel
-/home/aa8831/Pictures/Screenshots/Screenshot from 2026-04-28 23-49-37.png
+![Admin Panel](Screenshot%20from%202026-04-28%2023-49-37.png)
 
 ---
 
