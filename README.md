@@ -18,13 +18,7 @@ A modern, full-featured **Saloon Management Web Application** that lets customer
 ### 📅 My Bookings (Cancel & Delete)
 ![My Bookings](Screenshot%20from%202026-04-28%2023-48-38.png)
 
-### 👤 User Profile
-![User Profile](Screenshot%20from%202026-04-28%2023-49-27.png)
 
-### 🔐 Admin Panel
-![Admin Panel](Screenshot%20from%202026-04-28%2023-49-37.png)
-
----
 
 ## 📌 About This Project
 
