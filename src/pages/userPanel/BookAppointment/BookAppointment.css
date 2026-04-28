@@ -1,0 +1,58 @@
+.appointment {
+  background-image:url('/app.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 35px 30px;
+  color: white;
+  text-align: center;
+}
+
+.appointment-container {
+  max-width: 500px;
+  margin: auto;
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.appointment h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.appointment p {
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+.appointment-form .form-group {
+  margin-bottom: 15px;
+}
+
+.appointment-form input,
+.appointment-form select,
+.appointment-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+ 
+}
+
+.appointment-form textarea {
+  height: 100px;
+}
+
+.btn {
+  background: #ff4d6d;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #e63950;
+}

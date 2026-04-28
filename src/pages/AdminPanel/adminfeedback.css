@@ -1,0 +1,77 @@
+.adminfeedback {
+    padding: 20px;
+ 
+}
+
+.adminfeedback h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-Family:'Playfair',serif;
+}
+
+/* Table Styling */
+.adminfeedback table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+
+}
+
+.adminfeedback th,
+.adminfeedback td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.adminfeedback th {
+     background-color: #ec3d92;
+    color: #fff;
+}
+
+.adminfeedback tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.adminfeedback tr:hover {
+           background-color: #f4c3c3;
+
+}
+
+/* Buttons */
+.adminfeedback button {
+    padding: 6px 12px;
+    margin: 3px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+}
+
+/* Individual Button Colors */
+.update-btn {
+    background-color: #2196F3;
+}
+
+.delete-btn {
+    background-color: #f44336;
+}
+
+.save-btn {
+    background-color: #4CAF50;
+}
+
+.cancel-btn {
+    background-color: #9e9e9e;
+}
+
+.adminfeedback button:hover {
+    opacity: 0.8;
+}
+
+/* Select dropdown */
+.adminfeedback select {
+    padding: 5px;
+    border-radius: 4px;
+}

@@ -1,0 +1,78 @@
+.adminuser {
+    padding: 30px;
+  
+}
+
+.adminuser h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Playfair', serif;
+    font-size: 40px;
+
+}
+
+/* Table Styling */
+.adminuser table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.adminuser th,
+.adminuser td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.adminuser th {
+    background-color: #ec3d92;
+    color: #fff;
+}
+
+.adminuser tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.adminuser tr:hover {
+           background-color: #f4c3c3;
+
+}
+
+/* Buttons */
+.adminuser button {
+    padding: 6px 12px;
+    margin: 3px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+}
+
+/* Individual Button Colors */
+.update-btn {
+    background-color: #2196F3;
+}
+
+.delete-btn {
+    background-color: #f44336;
+}
+
+.save-btn {
+    background-color: #4CAF50;
+}
+
+.cancel-btn {
+    background-color: #9e9e9e;
+}
+
+.adminuser button:hover {
+    opacity: 0.8;
+}
+
+/* Select dropdown */
+.adminuser select {
+    padding: 5px;
+    border-radius: 4px;
+}

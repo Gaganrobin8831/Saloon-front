@@ -1,0 +1,114 @@
+.contact {
+    padding: 60px 5%;
+    background: linear-gradient(135deg, #dcb9f7 0%, #f4a9a8 50% ,#b0c0ce 100%);
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+.contact-container {
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px black;
+    width: 50%;
+  
+    /* max-width: 900px; */
+    text-align: center;
+}
+
+/* Matching your "Enhance Your Beauty" style */
+.contact-container h2 {
+    color: black; 
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.contact-container p {
+    color: black;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+/* Form Fields */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 50px;
+    border-color:1px solid black;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border:1px solid black;
+    background: #fafafa;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.form-group input:focus, 
+.form-group textarea:focus {
+    border-color: #e8aec0;
+    background: #fff;
+}
+
+/* Matching the Button on Home Page */
+.contact-btn {
+    background: #de49c2; 
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.4s;
+    width: fit-content;
+    align-self: center;
+}
+
+.contact-btn:hover {
+    background: #ea7aa7;
+    letter-spacing: 2px;
+}
+
+/* Bottom Info Section */
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    border-top: 1px solid #fceef0;
+    padding-top: 40px;
+}
+
+.info-box h3 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.info-box p {
+    font-size: 16px;
+    color: black;
+    margin: 0;
+    font-style: normal;
+}
+
+.icon {
+    color: #d1a3a4;
+}
+

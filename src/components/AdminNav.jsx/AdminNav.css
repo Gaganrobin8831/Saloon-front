@@ -1,0 +1,61 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color:white;
+   
+    
+}
+
+
+.logo-img {
+    height:80px;
+    width:auto;
+    object-fit:contain;
+    cursor: pointer;
+   
+}
+.logo {
+    
+    display:flex;
+    align-items:center;
+    
+    
+}
+.logo h2{
+    
+  font-family: 'Cursive', 'Brush Script MT', sans-serif;
+  font-weight:500;
+  color: palevioletred;
+  font-size: 40px;
+    
+}
+
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 70px; 
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+
+.menu a:hover {
+    color: #ff4d4d; /* Salon theme de hisab naal koi vi bright color */
+}
+
+/* List items (li) di padding fix krn lyi */
+.menu li {
+    display: inline-block;
+}

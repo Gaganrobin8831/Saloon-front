@@ -1,0 +1,140 @@
+
+
+    /* Main Container */
+.min-h-screen {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    font-family: 'Poppins', sans-serif;
+
+    background: 
+        linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.2)),
+        url('/profile.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Profile Card */
+.profile-data {
+    background: rgba(255, 255, 255, 2.0);
+    /* backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px); */
+
+    padding: 30px 25px;
+    border-radius: 20px;
+    width: 320px;
+    text-align: center;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+/* Profile Image */
+.profile-data img {
+    width:120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+/* Headings */
+.profile-data h1 {
+    margin-bottom: 25px;
+    color:black;
+}
+
+.profile-data h2,
+.profile-data h3 {
+    margin: 18px 0;
+    color: #333;
+   
+}
+
+/* Buttons */
+.profile-data button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* Edit Button */
+.profile-data button:first-of-type {
+    background: linear-gradient(135deg, #f9c1e5, #f018af);
+}
+
+
+.order-btn {
+    background: linear-gradient(135deg, #f9c1e5, #f018af);
+    margin-left: 10px;
+}
+
+/* Button Hover */
+.profile-data button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(190, 24, 93, 0.4);
+}
+
+/* ===================== */
+/* EDIT FORM */
+/* ===================== */
+
+.edit-form {
+    background: rgba(255, 255, 255,2.0);
+   
+
+    padding: 30px;
+    border-radius: 20px;
+    width: 320px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Form Title */
+.edit-form h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+}
+
+/* Inputs */
+.edit-form input {
+    padding: 10px 12px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Input Focus */
+.edit-form input:focus {
+    border-color: #d946ef;
+    box-shadow: 0 0 8px rgba(217, 70, 239, 0.2);
+}
+
+/* Save Button */
+.save-btn {
+    background: linear-gradient(135deg, #f9c1e5, #f018af);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Save Hover */
+.save-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(190, 24, 93, 0.4);
+}

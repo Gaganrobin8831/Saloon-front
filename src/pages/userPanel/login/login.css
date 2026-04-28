@@ -1,0 +1,126 @@
+/* .login-container{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
+
+.login-form{
+    background-color: black ;
+    padding: 40px;
+    width: 350px;
+    box-shadow: 0px 4px 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.login-form h2{
+    margin-bottom: 30px;
+    color: rgb(225, 80, 104);;
+}
+
+.login-form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: black;
+    border-color: rgb(233, 27, 61);
+}
+.login-form button{
+    height:50px;
+    width: 100%;
+    padding: 10px;
+    background-color:rgb(225, 80, 104);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.login-form button:hover{
+    background-color: pink;
+    color:black;
+   
+} */
+
+
+
+/* Background container */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* your image */
+ background: 
+        linear-gradient(rgba(255, 254, 254, 0.2)),
+        url('/login.jpg');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+/* Form card */
+.login-form {
+  position: relative;
+  z-index: 2;
+  height:350px;
+
+  width: 350px;
+  padding: 35px;
+
+  /* glass effect */
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+
+  border-radius: 20px;
+  text-align: center;
+
+  box-shadow: 0 8px 30px rgba(255, 105, 135, 0.2);
+  border:1px solid rgba(255,255,255,0.3)
+}
+
+/* Heading */
+.login-form h2 {
+  margin-bottom: 20px;
+  color: black;
+}
+
+/* Inputs */
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+
+  border-radius: 12px;
+  border: 1px solid #f3c6d3;
+  outline: none;
+}
+
+/* Button */
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+
+ background: linear-gradient(135deg, #fdafe2, #f018af);
+  color: white;
+
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Hover */
+.login-form button:hover {
+  transform: scale(1.05);
+}

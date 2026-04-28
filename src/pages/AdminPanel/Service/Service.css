@@ -1,0 +1,129 @@
+/* Full screen container */
+.min-h-screen {
+  min-height: 100vh;
+}
+
+/* Flex utilities */
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+/* Background */
+/* .bg-gray-200 {
+  background: linear-gradient(to right, #dbeafe, #e0f2fe);
+  background-color: pink;
+} */
+
+/* Form box */
+.bg-white {
+  background-color:white;
+ 
+}
+
+.p-8 {
+  padding: 30px;
+}
+
+.rounded-xl {
+  border-radius: 15px;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
+}
+
+/* Width */
+.w-\[400px\] {
+  width: 400px;
+}
+
+/* Flex column */
+.flex-col {
+  flex-direction: column;
+}
+
+.gap-4 {
+  gap: 15px;
+}
+
+/* Heading */
+.text-xl {
+  font-size: 30px;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Inputs & textarea */
+.border {
+  border: 1px solid #767070;
+}
+
+.p-2 {
+  padding: 10px;
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+/* Focus effect */
+input:focus,
+textarea:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 6px rgba(99, 102, 241, 0.4);
+}
+
+/* Buttons */
+button {
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Upload button */
+.bg-blue-500 {
+  background-color:#eb51c5;
+  color: #fff;
+}
+
+.bg-blue-500:hover {
+  background-color: #eb1bb7;
+}
+
+/* Submit button */
+.bg-green-500 {
+  background-color: #22c55e;
+  color: #fff;
+}
+
+.bg-green-500:hover {
+  background-color: #16a34a;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .w-\[400px\] {
+    width: 90%;
+  }
+}

@@ -1,0 +1,50 @@
+.home-container{
+    background-image:url('/pic.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:100%;
+    
+    padding:20px 80px;
+    /* margin-top:150px;
+    max-width:500px; */
+}
+.home-container h3 {
+  font-size: 50px;
+  color: #7a4a63;
+  font-family: 'Playfair Display', serif;
+  margin-top:100px;
+  max-width:500px;
+  
+}
+
+.home-container h2 {
+  font-size: 55px;
+  color: #555;
+  /* margin-top: 5px; */
+  font-family: 'Cursive', 'Brush Script MT', sans-serif;
+  font-weight:100;
+  
+}
+.home-container p{
+  margin-top:20px;
+  font-size: 20px;
+
+}
+
+.appointment-btn {
+   background: linear-gradient(135deg, #f5a1d7, #f018af);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.appointment-btn:hover {
+    background-color:pink;
+    color:black;
+   
+}
+
